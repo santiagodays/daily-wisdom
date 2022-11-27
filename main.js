@@ -1,5 +1,5 @@
 async function getRandomMessage(){
-  let data = await fetch("http://127.0.0.1:8080/data.json")
+  let data = await fetch("./data.json")
           .then((res) => res.text())
           .then((json) => JSON.parse(json))
   let index = Math.floor(Math.random() * data.messages.length - 1)
