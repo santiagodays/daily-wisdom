@@ -1,0 +1,37 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: ;
+}
+
+#mainSection{
+	padding: 1em;
+	margin: 1em;
+}
+
+.title{
+	font-size: 5em;
+	font-family: 'GFS Didot', serif;
+}
+
+#messageDisplay{
+	font-size: 1.5em;
+	font-family: 'GFS Didot', serif;
+	margin: 1em;
+}
+
+img{
+	width:30%;
+	height: auto;
+	margin:1em;
+
+}
